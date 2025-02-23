@@ -66,3 +66,28 @@
 // console.log(old.toLowerCase())
 
 //13
+
+// let old = prompt("Enter something")
+// let a = old.toLowerCase();
+// let b = old.slice(1, old.length)
+// let c = a[0].toUpperCase();
+// console.log(c + b)
+
+
+//14
+
+// let old = parseFloat(prompt("Enter a number"));
+// let result = old.toString();
+// console.log(result)
+
+
+//15
+
+// let a = prompt("Enter a value")
+// let b = prompt("Enter another value")
+// console.log(a + b)
+
+//16
+// let a = prompt("Enter a value")
+// let b = prompt("Enter another value")
+// console.log(a - b)

@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.container{
+    padding: 10px 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+}
+
+.note{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(83, 201, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.note button{
+    color: rgb(83, 201, 234);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.note button:hover{
+    background-color: orange;
+    color: white;
+
+}
+
+#addNote{
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+
+}
+
+
+
+
+/* form */
+
+.addForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: rgb(83, 201, 234);
+    height: 300px;
+    position: fixed;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,70%);
+    display: none;
+    color: white;
+}
+
+
+.addForm .inputs p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.addForm .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head button{
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: rgb(83, 201, 234);
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.5s;
+    
+}
+
+.head button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.addForm input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    color: orange;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#addBtn{
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(83, 201, 234);
+    font-weight: 600;
+    transition: 0.5s;
+
+    
+}
+
+#addBtn:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+textarea{
+    width: 100%;
+    height: 50px;
+    border: none;
+    color:orange;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+
+.myNote{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(83, 201, 234);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.myNote h2{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.myNote hr{
+    width: 50%;
+    border: 2px solid white;
+}
+
+.myNote p{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.myNote button{
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: rgb(83, 201, 234);
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+
+.myNote button:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+
+#newNote{
+    display: flex;
+    gap: 10px;
+}
