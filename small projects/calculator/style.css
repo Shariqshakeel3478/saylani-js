@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Phudu:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.yellow{
+    background-color: rgb(217, 147, 16);
+    color: white;
+}
+
+.grey{
+    background-color: rgb(155, 151, 151);
+}
+.normal{
+    background-color: #3f3e42;
+    color: white;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 450px;
+    width: 250px;
+    background-color: black;
+    border-radius: 40px;
+    border: 6px solid #CED2D7;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+
+}
+.btn-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.input input{
+    width: 100%;
+    height: 130px;
+    font-size: 50px;
+    border: none;
+    background-color: black;
+    text-align: end;
+    color: white;
+    padding-top: 90px;
+    padding-right:10px ;
+    font-weight: 200;
+}
+
+.input input:focus{
+    border: none;
+    outline: none;
+}
+.btn-row button{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    width: 90%;
+    display: flex;
+    height: 27px;
+    margin: auto;
+}
+.icons-left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 10px;
+}
+.icons-middle{
+    width: 60%;
+    background-color: #1e1e1fbb;
+    height: 18px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.icons-right{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons-right i{
+    color: white;
+    font-size: 7px;
+}
+
+.end{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+.end hr{
+    width: 50%;
+    border: 1px solid white;
+   
+}
