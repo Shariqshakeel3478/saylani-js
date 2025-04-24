@@ -1,0 +1,16 @@
+
+
+.mobiles{
+    height: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.mobiles img{
+    height: 100%;
+}
+
+.counter{
+    width: 50%;
+    margin: auto;
+}
